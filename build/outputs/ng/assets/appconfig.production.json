@@ -1,0 +1,18 @@
+{
+  "remoteServiceBaseUrl": "http://sgabackend1-env.eba-3wzqhaat.sa-east-1.elasticbeanstalk.com",
+  "appBaseUrl": "http://sgafrontend1-env-1.eba-ppxgpkh8.sa-east-1.elasticbeanstalk.com",
+  "localeMappings": [
+    {
+      "from": "pt-BR",
+      "to": "pt"
+    },
+    {
+      "from": "zh-CN",
+      "to": "zh"
+    },
+    {
+      "from": "he-IL",
+      "to": "he"
+    }
+  ]
+}

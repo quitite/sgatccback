@@ -1,0 +1,484 @@
+DEBUG 2020-06-13 18:30:06,514 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-06-13 18:30:06,533 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2020-06-13 18:30:06,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.Web.Host.Startup.SGAWebHostModule, SGA.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGAWebCoreModule, SGA.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGAApplicationModule, SGA.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGACoreModule, SGA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.EntityFrameworkCore.SGAEntityFrameworkModule, SGA.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:06,601 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2020-06-13 18:30:06,671 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-13 18:30:06,672 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-13 18:30:06,686 [1    ] o.Configuration.LanguageManagementConfig - Converted SGA (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-13 18:30:06,687 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-13 18:30:07,288 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SGA.EntityFrameworkCore.SGADbContext, SGA.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:07,935 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-06-13 18:30:07,952 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-06-13 18:30:07,956 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-06-13 18:30:07,957 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SGA
+DEBUG 2020-06-13 18:30:07,958 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-06-13 18:30:08,028 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-06-13 18:30:08,068 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SGA.MultiTenancy.Tenant, SGA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SGA.Authorization.Users.User, SGA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-06-13 18:30:08,116 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-06-13 18:30:08,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-06-13 18:30:08,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Users.Dto.CreateUserDto
+DEBUG 2020-06-13 18:30:08,131 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Users.Dto.UserDto
+DEBUG 2020-06-13 18:30:08,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-06-13 18:30:08,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-06-13 18:30:08,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Roles.Dto.PermissionDto
+DEBUG 2020-06-13 18:30:08,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-06-13 18:30:08,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.MultiTenancy.Dto.TenantDto
+FATAL 2020-06-13 18:30:09,575 [1    ] Abp.AbpBootstrapper                      - System.NotSupportedException: Globalization Invariant Mode is not supported.
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SGA.EntityFrameworkCore.SGAEntityFrameworkModule.PostInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\SGAEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+System.NotSupportedException: Globalization Invariant Mode is not supported.
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SGA.EntityFrameworkCore.SGAEntityFrameworkModule.PostInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\SGAEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+FATAL 2020-06-13 18:30:09,593 [1    ] Microsoft.AspNetCore.Hosting.WebHost     - Application startup exception
+System.NotSupportedException: Globalization Invariant Mode is not supported.
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SGA.EntityFrameworkCore.SGAEntityFrameworkModule.PostInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\SGAEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at SGA.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, ILoggerFactory loggerFactory) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Host\Startup\Startup.cs:line 122
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+DEBUG 2020-06-13 18:30:14,586 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-06-13 18:30:14,604 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2020-06-13 18:30:14,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.Web.Host.Startup.SGAWebHostModule, SGA.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGAWebCoreModule, SGA.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGAApplicationModule, SGA.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGACoreModule, SGA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.EntityFrameworkCore.SGAEntityFrameworkModule, SGA.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,648 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,649 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:14,661 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2020-06-13 18:30:14,717 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-13 18:30:14,719 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-13 18:30:14,720 [1    ] o.Configuration.LanguageManagementConfig - Converted SGA (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-13 18:30:14,721 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-13 18:30:15,159 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SGA.EntityFrameworkCore.SGADbContext, SGA.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-13 18:30:15,917 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-06-13 18:30:15,935 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-06-13 18:30:15,941 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-06-13 18:30:15,943 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SGA
+DEBUG 2020-06-13 18:30:15,945 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-06-13 18:30:16,022 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-06-13 18:30:16,080 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SGA.MultiTenancy.Tenant, SGA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SGA.Authorization.Users.User, SGA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-06-13 18:30:16,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-06-13 18:30:16,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-06-13 18:30:16,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Users.Dto.CreateUserDto
+DEBUG 2020-06-13 18:30:16,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Users.Dto.UserDto
+DEBUG 2020-06-13 18:30:16,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-06-13 18:30:16,154 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-06-13 18:30:16,155 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.Roles.Dto.PermissionDto
+DEBUG 2020-06-13 18:30:16,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-06-13 18:30:16,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SGA.MultiTenancy.Dto.TenantDto
+FATAL 2020-06-13 18:30:17,968 [1    ] Abp.AbpBootstrapper                      - System.NotSupportedException: Globalization Invariant Mode is not supported.
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SGA.EntityFrameworkCore.SGAEntityFrameworkModule.PostInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\SGAEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+System.NotSupportedException: Globalization Invariant Mode is not supported.
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SGA.EntityFrameworkCore.SGAEntityFrameworkModule.PostInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\SGAEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+FATAL 2020-06-13 18:30:17,983 [1    ] Microsoft.AspNetCore.Hosting.WebHost     - Application startup exception
+System.NotSupportedException: Globalization Invariant Mode is not supported.
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SGA.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SGA.EntityFrameworkCore.SGAEntityFrameworkModule.PostInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.EntityFrameworkCore\EntityFrameworkCore\SGAEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at SGA.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, ILoggerFactory loggerFactory) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Host\Startup\Startup.cs:line 122
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+DEBUG 2021-02-16 14:20:34,941 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-16 14:20:34,959 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2021-02-16 14:20:34,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.Web.Host.Startup.SGAWebHostModule, SGA.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,980 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGAWebCoreModule, SGA.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,981 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGAApplicationModule, SGA.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGACoreModule, SGA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,987 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.EntityFrameworkCore.SGAEntityFrameworkModule, SGA.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,988 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,991 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:34,999 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2021-02-16 14:20:35,058 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-16 14:20:35,059 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-16 14:20:35,060 [1    ] o.Configuration.LanguageManagementConfig - Converted SGA (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-16 14:20:35,061 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+FATAL 2021-02-16 14:20:39,204 [1    ] Abp.AbpBootstrapper                      - System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000005, 0xFFFDFFFF): Name does not resolve
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.Threading.AsyncHelper.RunSync[TResult](Func`1 func)
+   at SGA.SGAWebCoreModule.<PreInitialize>b__3_0(AbpRedisCacheOptions options) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 59
+   at Abp.Runtime.Caching.Redis.RedisCacheConfigurationExtensions.UseRedis(ICachingConfiguration cachingConfiguration, Action`1 optionsAction)
+   at SGA.SGAWebCoreModule.PreInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 54
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_0(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000005, 0xFFFDFFFF): Name does not resolve
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.Threading.AsyncHelper.RunSync[TResult](Func`1 func)
+   at SGA.SGAWebCoreModule.<PreInitialize>b__3_0(AbpRedisCacheOptions options) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 59
+   at Abp.Runtime.Caching.Redis.RedisCacheConfigurationExtensions.UseRedis(ICachingConfiguration cachingConfiguration, Action`1 optionsAction)
+   at SGA.SGAWebCoreModule.PreInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 54
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_0(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+FATAL 2021-02-16 14:20:39,215 [1    ] Microsoft.AspNetCore.Hosting.WebHost     - Application startup exception
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000005, 0xFFFDFFFF): Name does not resolve
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.Threading.AsyncHelper.RunSync[TResult](Func`1 func)
+   at SGA.SGAWebCoreModule.<PreInitialize>b__3_0(AbpRedisCacheOptions options) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 59
+   at Abp.Runtime.Caching.Redis.RedisCacheConfigurationExtensions.UseRedis(ICachingConfiguration cachingConfiguration, Action`1 optionsAction)
+   at SGA.SGAWebCoreModule.PreInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 54
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_0(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at SGA.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, ILoggerFactory loggerFactory) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Host\Startup\Startup.cs:line 122
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+DEBUG 2021-02-16 14:20:43,031 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-16 14:20:43,055 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2021-02-16 14:20:43,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.Web.Host.Startup.SGAWebHostModule, SGA.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,549 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-16 14:20:43,565 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2021-02-16 14:20:43,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.Web.Host.Startup.SGAWebHostModule, SGA.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGAWebCoreModule, SGA.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGAApplicationModule, SGA.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.SGACoreModule, SGA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SGA.EntityFrameworkCore.SGAEntityFrameworkModule, SGA.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,616 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,617 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,618 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-16 14:20:43,629 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2021-02-16 14:20:43,681 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-16 14:20:43,681 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MuFATAL 2021-02-16 14:20:48,327 [1    ] Abp.AbpBootstrapper                      - System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionSFATAL 2021-02-16 14:20:48,828 [1    ] Abp.AbpBootstrapper                      - System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.Threading.AsyncHelper.RunSync[TResult](Func`1 func)
+   at SGA.SGAWebCoreModule.<PreInitialize>b__3_0(AbpRedisCacheOptions options) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 59
+   at Abp.Runtime.Caching.Redis.RedisCacheConfigurationExtensions.UseRedis(ICachingConfiguration cachingConfiguration, Action`1 optionsAction)
+   at SGA.SGAWebCoreModule.PreInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 54
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_0(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.Threading.AsyncHelper.RunSync[TResult](Func`1 func)
+   at SGA.SGAWebCoreModule.<PreInitialize>b__3_0(AbpRedisCacheOptions options) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 59
+   at Abp.Runtime.Caching.Redis.RedisCacheConfigurationExtensions.UseRedis(ICachingConfiguration cachingConfiguration, Action`1 optionsAction)
+   at SGA.SGAWebCoreModule.PreInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 54
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_0(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+FATAL 2021-02-16 14:20:48,841 [1    ] Microsoft.AspNetCore.Hosting.WebHost     - Application startup exception
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.Threading.AsyncHelper.RunSync[TResult](Func`1 func)
+   at SGA.SGAWebCoreModule.<PreInitialize>b__3_0(AbpRedisCacheOptions options) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 59
+   at Abp.Runtime.Caching.Redis.RedisCacheConfigurationExtensions.UseRedis(ICachingConfiguration cachingConfiguration, Action`1 optionsAction)
+   at SGA.SGAWebCoreModule.PreInitialize() in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Core\SGAWebCoreModule.cs:line 54
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_0(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at SGA.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, ILoggerFactory loggerFactory) in C:\Documentos\TCC\SGA_2\5.6.0\aspnet-core\src\SGA.Web.Host\Startup\Startup.cs:line 122
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
